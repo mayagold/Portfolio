@@ -8,6 +8,10 @@
   background: #526D73 ;
 }
 
+/*.modal {
+  position: fixed;
+  background-color: rgba(0,0,0,.8);
+}*/
 
 /*///////////////////////////////////////////////*/
 
@@ -17,7 +21,7 @@ body {
   color: whitesmoke;
   position: relative;
   display: block;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   vertical-align: baseline;
   font-family: "Roboto", sans-serif;
@@ -88,10 +92,58 @@ h1 {
   #headshot {
     margin-right: 0px
   }
+  .description {
+    text-transform: uppercase;
+    width: 60%;
+    text-align: right;
+    display: block;
+    margin: -200px 0 90px auto;
+  }
+  .intro {
+    padding: 60px;
+    text-align: center;
+  }
+  .experience-text {
+    padding: 60px;
+    text-align: center;
+  }
+  .projects {
+    padding: 60px;
+    text-align: center;
 
+  }
 }
 
+
+a {
+  text-align: center;
+  margin: 0 auto;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #909BA6
+}
+
+
 /*End mobile */
+
+.text-img {
+  position: relative;
+}
+
+#about-me {
+  color: #4A8078
+}
+
+#about-experience {
+  color: #FF9E2C
+}
+
+#about-projects {
+  color: #17B453
+}
 
 .photo-credit {
   padding: 40px;
@@ -132,6 +184,7 @@ h1 {
 }
 
 
+
 /*
 .nav-header {
   background: black;
@@ -162,6 +215,7 @@ img {
   z-index: -1000;
   position: absolute;
 }
+
 
 
 
