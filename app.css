@@ -1,9 +1,68 @@
+
+
+.navbar-fixed {
+  position: fixed;
+  top: -(60px);
+  z-index: 1000;
+  width: 100%;
+}
+
+
+/*///////////////////////////////////////////////*/
+
+
 body {
-  background: black;
-  color: white;
+  background: whitesmoke;
+  color: black;
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+  width: 100%;
+  align-items: center;
 }
+
+.glyphicon {
+  max-height: 50px;
+  padding-top: 0;
+
+}
+
+.section {
+  width: 100%;
+}
+
+@media screen and (max-width: 630px) {
+  #nav-header {
+    background: #419691;
+    color: black;
+    display: flex;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -moz-box;
+    height: 60px;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  #nav-header * {
+    padding: 3px 10px 0px 10px;
+  }
+}
+/*
+.nav-header {
+  background: black;
+  color: #17B453;
+  box-sizing: border-box;
+  display: block;
+
+}*/
 
 img {
   max-width: 100%;
@@ -15,3 +74,26 @@ img {
   border-radius: 50%;
   max-height: 200px
 }
+
+.background-center {
+  width: 70%;
+  margin-right: 0px;
+  height: 1000px;;
+  background-color: black;
+  z-index: -1000;
+  position: absolute;
+}
+
+
+
+
+
+/*Color Palette*/
+
+/*
+whitesmoke
+black
+#909BA6 -grey
+#419691 -teal
+#17B453 -green
+#FF9E2C -orange*/
