@@ -5,6 +5,7 @@
   top: -(60px);
   z-index: 1000;
   width: 100%;
+  background: #526D73 ;
 }
 
 
@@ -12,32 +13,32 @@
 
 
 body {
-  background: whitesmoke;
-  color: black;
+  background: black;
+  color: whitesmoke;
   position: relative;
   display: block;
   margin: 0;
   padding: 0;
   vertical-align: baseline;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   width: 100%;
   align-items: center;
 }
 
-.glyphicon {
-  max-height: 50px;
-  padding-top: 0;
+h1 {
+  font-family: "Exo", sans-serif;
 
 }
 
-.section {
+.navigation {
   width: 100%;
+  position: relative;
 }
 
 @media screen and (max-width: 630px) {
   #nav-header {
-    background: #419691;
+    background: #17B453;
     color: black;
     display: flex;
     display: -webkit-flex;
@@ -54,11 +55,87 @@ body {
   #nav-header * {
     padding: 3px 10px 0px 10px;
   }
+  .glyphicon {
+    max-height: 30px;
+    padding-top: 0;
+  }
+  .headline {
+    width: 70%;
+
+    text-align: left;
+    padding: 30px;
+    margin-top: 30px
+  }
+  h1 {
+    padding: 0
+  }
+  #design {
+    font-size: 50px;
+    margin: 0;
+    text-align: right;
+    color: #909BA6
+  }
+  #development {
+    font-size: 40px;
+    margin: 0;
+    text-align: left;
+    color: #909BA6
+
+  }
+  .headshot {
+    width: 100%;
+  }
+  #headshot {
+    margin-right: 0px
+  }
+
 }
+
+/*End mobile */
+
+.photo-credit {
+  padding: 40px;
+  text-align: center;
+}
+
+#nav-header {
+  background: whitesmoke ;
+  color: black;
+  display: flex;
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -moz-box;
+  height: 80px;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  border-bottom: 4px solid black;
+}
+#nav-header * {
+  padding: 5px 10px 0px 10px;
+}
+
+.glyphicon {
+  max-height: 40px;
+  margin-top: 10px;
+}
+
+.name {
+  margin: -120px auto 80px auto;
+  width: 100%;
+  text-align: center;
+  color: #00AB57;
+  text-transform: uppercase;
+}
+
+
 /*
 .nav-header {
   background: black;
-  color: #17B453;
+  color: ##4A8078 ;
   box-sizing: border-box;
   display: block;
 
@@ -66,13 +143,15 @@ body {
 
 img {
   max-width: 100%;
-  position: sticky;
+  /*position: sticky;*/
   display: block;
 }
 
 #headshot {
   border-radius: 50%;
-  max-height: 200px
+  max-height: 200px;
+  margin: 0 auto;
+  padding: 40px 0 40px 0;
 }
 
 .background-center {
@@ -94,6 +173,6 @@ img {
 whitesmoke
 black
 #909BA6 -grey
-#419691 -teal
-#17B453 -green
+#4A8078 -teal
+#00AB57 -green
 #FF9E2C -orange*/

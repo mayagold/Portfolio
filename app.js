@@ -16,7 +16,7 @@ $( ()=>{
     } else if (scrollTop <= y_pos) {
       $navbar.removeClass("navbar-fixed").clearQueue().animate({
         top: "-48px"
-      }, 0);
+      }, .1);
     }
   });
 
