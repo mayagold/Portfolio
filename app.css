@@ -29,6 +29,12 @@ body {
   align-items: center;
 }
 
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
 h1 {
   font-family: "Exo", sans-serif;
   padding: 0;
@@ -110,19 +116,41 @@ h1 {
   margin: -500px 5px 300px auto;
 }
 
+#about-me {
+  color: #4A8078;
+  font-size: 40px;
+}
+
+#about-experience {
+  color: #FF9E2C;
+  font-size: 40px;
+}
+
+#about-projects {
+  color: #17B453;
+  font-size: 40px;
+}
+
 .intro {
-  padding: 140px;
+  padding-top: 140px;
+  padding-bottom: 140px;
   text-align: center;
+  font-size: 30px;
 }
 
 .experience-text {
-  padding: 140px;
+  padding-top: 140px;
+  padding-bottom: 140px;
   text-align: center;
+  font-size: 30px;
+
 }
 
 .projects {
-  padding: 140px;
+  padding-top: 140px;
+  padding-bottom: 140px;
   text-align: center;
+  font-size: 30px;
 
 }
 
@@ -144,17 +172,7 @@ a:hover {
 .text-img {
 }
 
-#about-me {
-  color: #4A8078
-}
 
-#about-experience {
-  color: #FF9E2C
-}
-
-#about-projects {
-  color: #17B453
-}
 
 .photo-credit {
   padding: 40px;
@@ -167,31 +185,7 @@ a:hover {
 
 
 
-/*
-.nav-header {
-  background: black;
-  color: ##4A8078 ;
-  box-sizing: border-box;
-  display: block;
 
-}*/
-
-img {
-  max-width: 100%;
-  /*position: sticky;*/
-  display: block;
-}
-
-
-
-.background-center {
-  width: 70%;
-  margin-right: 0px;
-  height: 1000px;;
-  background-color: black;
-  z-index: -1000;
-  position: absolute;
-}
 
 
 
