@@ -83,7 +83,6 @@ img {
 }
 
 h1 {
-  /*font-family: "Exo", sans-serif;*/
   padding: 0;
   text-transform: uppercase;
   font-size: 50px;
@@ -92,31 +91,6 @@ h1 {
 @media only screen and (min-width: $breakpoint) {
   font-size: 30px;
 }
-// .navigation {
-//   width: 100%;
-//   position: relative;
-// }
-
-// #nav-header {
-//   background: whitesmoke ;
-//   color: black;
-//   display: flex;
-//   display: -webkit-flex;
-//   display: -webkit-box;
-//   display: -moz-box;
-//   height: 200px;
-//   -webkit-justify-content: space-between;
-//   -moz-justify-content: space-between;
-//   justify-content: space-between;
-//   text-align: center;
-//   align-items: center;
-//   flex-wrap: nowrap;
-//   border-bottom: 4px solid black;
-// }
-//
-// #nav-header * {
-//   padding: 3px 10px 0px 10px;
-// }
 
 .glyphicon {
   max-height: 100px;
@@ -138,12 +112,13 @@ h1 {
 
 .headshot {
   width: 100%;
-  margin: 30px auto 200px auto;
+  margin: 30px auto 70px auto;
 }
 
 #headshot {
-  height: 400px;
-  margin-left: 0px;
+  height: 200px;
+  object-fit: cover;
+  margin:0 auto;
   border-radius: 50%;
   padding: 0;
 }
@@ -161,17 +136,21 @@ h1 {
   }
   #headshot {
     height: 300px;
+    object-fit: cover;
+    margin-left: 0px;
+    border-radius: 50%;
+    padding: 0;
   }
 }
 
 .name {
-  margin: -200px auto auto auto;
-  padding-bottom: 20px;
+  margin: 0px auto 0px auto;
+  padding-bottom: 0px;
   width: 100%;
   text-align: center;
   font-size: 40px;
   font-weight: 200;
-  color: $mg-green;
+  color: whitesmoke;
   text-transform: uppercase;
 }
 
@@ -188,7 +167,7 @@ h1 {
 #about-me {
   color: #4A8078;
   font-size: 40px;
-  padding-top: 180px;
+  padding-top: 40px;
 }
 
 #about-experience {
@@ -200,8 +179,8 @@ h1 {
   color: $mg-green;
   font-size: 40px;
   text-align: center;
-  margin-top: 130px;
-  margin-bottom: 130px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 @media only screen and (min-width: $breakpoint) {
@@ -214,15 +193,15 @@ h1 {
 
 .intro {
   margin: 50px auto;
-  padding-top: 200px;
-  padding-bottom: 80px;
+  padding-top: 190px;
+  padding-bottom: 0px;
   text-align: center;
   font-size: 20px;
 }
 
 .experience-text {
-  padding-top: 140px;
-  padding-bottom: 140px;
+  padding-top: 30px;
+  padding-bottom: 60px;
   text-align: center;
   font-size: 20px;
 
@@ -252,7 +231,7 @@ a:hover {
 
 .text-img {
   position: relative;
-  margin: 140px 0;
+  margin: 40px 0;
   width: 100%;
 }
 
@@ -302,7 +281,7 @@ a:hover {
   }
   @media only screen and (max-width: $breakpoint) {
     .projects {
-      margin: -100px auto;
+      margin: 0 auto;
       width: 100%;
       text-align: left;
     }

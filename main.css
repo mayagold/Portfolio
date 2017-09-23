@@ -63,7 +63,6 @@ img {
   #mountain, #tigers, #cabin {
     display: none; } }
 h1 {
-  /*font-family: "Exo", sans-serif;*/
   padding: 0;
   text-transform: uppercase;
   font-size: 50px; }
@@ -88,11 +87,12 @@ h1 {
 
 .headshot {
   width: 100%;
-  margin: 30px auto 200px auto; }
+  margin: 30px auto 70px auto; }
 
 #headshot {
-  height: 400px;
-  margin-left: 0px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0 auto;
   border-radius: 50%;
   padding: 0; }
 
@@ -107,15 +107,19 @@ h1 {
     display: none; }
 
   #headshot {
-    height: 300px; } }
+    height: 300px;
+    object-fit: cover;
+    margin-left: 0px;
+    border-radius: 50%;
+    padding: 0; } }
 .name {
-  margin: -200px auto auto auto;
-  padding-bottom: 20px;
+  margin: 0px auto 0px auto;
+  padding-bottom: 0px;
   width: 100%;
   text-align: center;
   font-size: 40px;
   font-weight: 200;
-  color: #14910E;
+  color: whitesmoke;
   text-transform: uppercase; }
 
 @media only screen and (min-width: 800px) {
@@ -126,7 +130,7 @@ h1 {
 #about-me {
   color: #4A8078;
   font-size: 40px;
-  padding-top: 180px; }
+  padding-top: 40px; }
 
 #about-experience {
   color: #FF9E2C;
@@ -136,8 +140,8 @@ h1 {
   color: #14910E;
   font-size: 40px;
   text-align: center;
-  margin-top: 130px;
-  margin-bottom: 130px; }
+  margin-top: 40px;
+  margin-bottom: 40px; }
 
 @media only screen and (min-width: 800px) {
   #about-me, #about-experience, #about-projects {
@@ -146,14 +150,14 @@ h1 {
     padding: 0; } }
 .intro {
   margin: 50px auto;
-  padding-top: 200px;
-  padding-bottom: 80px;
+  padding-top: 190px;
+  padding-bottom: 0px;
   text-align: center;
   font-size: 20px; }
 
 .experience-text {
-  padding-top: 140px;
-  padding-bottom: 140px;
+  padding-top: 30px;
+  padding-bottom: 60px;
   text-align: center;
   font-size: 20px; }
 
@@ -172,7 +176,7 @@ a:hover {
 /*End mobile */
 .text-img {
   position: relative;
-  margin: 140px 0;
+  margin: 40px 0;
   width: 100%; }
 
 #mountain {
@@ -214,7 +218,7 @@ a:hover {
 
 @media only screen and (max-width: 800px) {
   .projects {
-    margin: -100px auto;
+    margin: 0 auto;
     width: 100%;
     text-align: left; } }
 section {
