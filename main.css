@@ -19,7 +19,7 @@ body {
   padding: 0;
   vertical-align: baseline;
   font-family: "Roboto", sans-serif;
-  font-weight: 200;
+  font-weight: 100;
   width: 100%;
   align-items: center; }
 
@@ -28,8 +28,7 @@ h2 {
 
 @media only screen and (min-width: 800px) {
   body {
-    text-align: left;
-    text-transform: uppercase; }
+    text-align: left; }
 
   #wolf {
     height: 100%;
@@ -65,7 +64,8 @@ img {
 h1 {
   padding: 0;
   text-transform: uppercase;
-  font-size: 50px; }
+  font-size: 50px;
+  font-weight: 100; }
 
 @media only screen and (min-width: 800px) {
   font-size: 30px; }
@@ -118,7 +118,7 @@ h1 {
   width: 100%;
   text-align: center;
   font-size: 40px;
-  font-weight: 200;
+  font-weight: 100;
   color: whitesmoke;
   text-transform: uppercase; }
 
@@ -207,8 +207,12 @@ a:hover {
   .description {
     display: none; } }
 .photo-credit {
-  padding: 40px;
-  text-align: center; }
+  padding: 40px auto;
+  text-align: left;
+  margin-top: 80px; }
+
+.call {
+  text-align: left; }
 
 .projects {
   margin: 0px auto 80px;
@@ -220,7 +224,13 @@ a:hover {
   .projects {
     margin: 0 auto;
     width: 100%;
-    text-align: left; } }
+    text-align: left; }
+
+  .call {
+    text-align: center; }
+
+  .photo-credit {
+    text-align: center; } }
 section {
   margin: 0;
   padding: 0;
