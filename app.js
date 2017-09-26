@@ -1,24 +1,13 @@
 console.log("hi");
 
-// jQuery NavBar Function
+// jQuery Scroll Function
 
-// $( ()=>{
-//   var $navbar = $("#nav-header"),
-//       y_pos   = $navbar.offset().top,
-//       height  = $navbar.height();
-//   $(document).scroll(function(){
-//     var scrollTop = $(this).scrollTop();
-//
-//     if (scrollTop > y_pos + height) {
-//       $navbar.addClass("navbar-fixed").animate({
-//         top: 0
-//       });
-//     } else if (scrollTop <= y_pos) {
-//       $navbar.removeClass("navbar-fixed").clearQueue().animate({
-//         top: "-48px"
-//       }, .1);
-//     }
-//   });
-// })
+$(window).scroll(function(){
+    $("#headshot").css("opacity", 1 - $(window).scrollTop() / 300);
+    $(".name").css("opacity", 1 - $(window).scrollTop() / 350);
+    $('h2').css("opacity", 1 - $(window).scrollTop() / 500);
 
+
+
+  });
 //
