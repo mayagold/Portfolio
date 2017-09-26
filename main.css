@@ -6,14 +6,15 @@ body {
   display: block;
   margin: 0 auto;
   padding: 0;
-  vertical-align: baseline;
   font-family: 'Julius Sans One', sans-serif;
   font-weight: 100;
   width: 100%;
-  align-items: center;
   text-transform: uppercase; }
 
 h2 {
+  display: none; }
+
+#wolf {
   display: none; }
 
 @media only screen and (min-width: 800px) {
@@ -21,6 +22,7 @@ h2 {
     text-align: left; }
 
   #wolf {
+    display: block;
     height: 100%;
     max-width: 90%;
     position: fixed;
@@ -46,7 +48,8 @@ h2 {
     font-size: 62px; } }
 img {
   max-width: 100%;
-  display: block; }
+  display: block;
+  opacity: .9; }
 
 @media only screen and (min-width: 800px) {
   #mountain, #tigers, #cabin {

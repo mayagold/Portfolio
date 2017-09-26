@@ -1,11 +1,7 @@
 $breakpoint: 800px;
 $mg-green: #39BE3E;
 
-
-
-
 /*///////////////////////////////////////////////*/
-
 
 body {
   background: black;
@@ -14,15 +10,16 @@ body {
   display: block;
   margin: 0 auto;
   padding: 0;
-  vertical-align: baseline;
   font-family: 'Julius Sans One', sans-serif;
   font-weight: 100;
   width: 100%;
-  align-items: center;
   text-transform: uppercase;
 }
 
 h2 {
+  display: none;
+}
+#wolf {
   display: none;
 }
 
@@ -32,6 +29,7 @@ h2 {
      text-align: left;
    }
   #wolf {
+    display: block;
     height: 100%;
     max-width: 90%;
     position: fixed;
@@ -41,7 +39,6 @@ h2 {
     top: 0;
     z-index: -1000;
     box-shadow: 0 0 8px 8px black inset;
-
   }
   .full-screen-body {
     width: 36%;
@@ -54,16 +51,15 @@ h2 {
   h2 {
     display: block;
     margin: -100 auto 120px;
-    // text-align: center;
     font-weight: lighter;
     font-size: 62px;
   }
 }
 
-
 img {
   max-width: 100%;
   display: block;
+  opacity: .9;
 }
 
 @media only screen and (min-width: $breakpoint) {
