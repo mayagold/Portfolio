@@ -46,17 +46,17 @@ h2 {
   .full-screen-body {
     width: 36%;
     background: rgba(0,0,0,.4);
-    margin-left: 70px;
+    margin-left: 72px;
     padding: 40px 50px 40px 90px;
     text-align: left;
     border-left: 2px solid rgba(255,255,255,0.8);
   }
   h2 {
     display: block;
-    margin: -100 auto 100px;
+    margin: -100 auto 120px;
     // text-align: center;
     font-weight: lighter;
-    font-size: 60px;
+    font-size: 62px;
   }
 }
 
@@ -103,7 +103,7 @@ h1 {
 
 .headshot {
   width: 100%;
-  margin: 30px auto 70px auto;
+  margin: 50px auto 70px auto;
 }
 
 #headshot {
@@ -261,7 +261,7 @@ a:hover {
   .text-img {
     position: FIXED;
     RIGHT: 10PX;
-    BOTTOM: 100PX;
+    BOTTOM: 66PX;
     WIDTH: 40%;
   }
   .description{
@@ -274,12 +274,13 @@ a:hover {
 .photo-credit {
   padding: 40px auto;
   text-align: left;
-  margin-top: 80px;
+  margin-top: 10px;
   margin-bottom: 40px
 }
 
 .call {
   text-align: left;
+  margin-top: 100px;
 }
 
 .projects {
