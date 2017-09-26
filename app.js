@@ -1,6 +1,6 @@
 console.log("hi");
 
-// jQuery NavBar Function
+// jQuery SCROLL
 
 $(window).scroll(function(){
     $("#headshot").css("opacity", 1 - $(window).scrollTop() / 300);
