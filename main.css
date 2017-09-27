@@ -20,7 +20,8 @@ body {
   padding-bottom: 20px; }
 
 h2 {
-  display: none; }
+  position: relative;
+  text-align: center; }
 
 #wolf {
   display: none; }
@@ -81,27 +82,12 @@ h1 {
 
 @media only screen and (min-width: 1025px) {
   font-size: 30px; }
-#development {
-  font-size: 20px;
-  margin: 0;
-  text-align: left;
-  color: black;
-  position: relative;
-  z-index: 1000; }
-
 #headshot {
   display: none; }
 
 @media only screen and (min-width: 1025px) {
   .headshot {
     margin-bottom: 100px; }
-
-  #development {
-    display: none;
-    font-size: 14px; }
-
-  #design {
-    display: none; }
 
   #headshot {
     height: 800px;
@@ -131,7 +117,7 @@ h1 {
       opacity: .6;
       z-index: -1000; } }
 .name {
-  margin: 100px auto 0px auto;
+  margin: 0px auto;
   padding-bottom: 0px;
   position: relative;
   width: 100%;
