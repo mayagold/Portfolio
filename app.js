@@ -4,11 +4,9 @@ console.log("hi");
 
 $(window).scroll(function(){
     $(".call").css("opacity", 0 + $(window).scrollTop() / 450);
-
     $(".name").css("opacity", 1 - $(window).scrollTop() / 450);
     $('h2').css("opacity", 1 - $(window).scrollTop() / 450);
     $('.description').css("opacity", 1 - $(window).scrollTop() / 500);
-    $('.car-img').css("opacity", .9 - $(window).scrollTop() / 800);
     $('.projects').css("opacity", 0+ $(window).scrollTop() / 800);
     $('.waterfall-img').css("opacity", .9 - $(window).scrollTop() / 2500);
     $('#wolf').css("opacity", .9 - $(window).scrollTop() / 3500);
