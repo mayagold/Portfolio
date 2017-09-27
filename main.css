@@ -14,15 +14,22 @@ body {
   height: 100%;
   text-transform: uppercase; }
 
+.phone {
+  text-align: center;
+  line-height: 2; }
+
 h2 {
   display: none; }
 
 #wolf {
   display: none; }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1025px) {
   body {
     text-align: left; }
+
+  .phone {
+    display: none; }
 
   #wolf {
     display: block;
@@ -61,7 +68,7 @@ img {
   display: block;
   opacity: .9; }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1025px) {
   #mountain, #tigers, #cabin {
     display: none; } }
 h1 {
@@ -71,7 +78,7 @@ h1 {
   font-weight: 100;
   margin: 0; }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1025px) {
   font-size: 30px; }
 #development {
   font-size: 20px;
@@ -84,7 +91,7 @@ h1 {
 #headshot {
   display: none; }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1025px) {
   .headshot {
     margin-bottom: 100px; }
 
@@ -133,7 +140,7 @@ h1 {
   text-transform: uppercase;
   z-index: 1000; }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1025px) {
   .name {
     text-align: left;
     position: fixed;
@@ -157,7 +164,7 @@ h1 {
   margin-top: 40px;
   margin-bottom: 40px; }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1025px) {
   #about-me {
     padding-top: 200px; }
 
@@ -195,13 +202,12 @@ a {
   color: whitesmoke;
   text-decoration: none; }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1025px) {
   a {
     text-align: center; } }
 a:hover {
   color: #909BA6; }
 
-/*End mobile */
 .text-img {
   position: relative;
   margin: 40px 0;
@@ -223,7 +229,7 @@ a:hover {
   font-size: 16px;
   opacity: 1; }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1025px) {
   .intro, #about-me {
     text-align: center;
     margin: 800px 20px 0;
@@ -261,7 +267,7 @@ a:hover {
   text-align: left;
   margin-top: 100px; }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1025px) {
   .call {
     text-align: right;
     position: fixed;
@@ -323,132 +329,7 @@ a:hover {
       padding: 0;
       border: 1px solid rgba(255, 255, 255, 0.4); }
 
-@media only screen and (max-width: 800px) {
-  .projects {
-    margin: 60px auto;
-    border: none;
-    box-shadow: none;
-    width: 350px;
-    height: 350px;
-    text-align: center; }
-    .projects .arrow {
-      display: none; }
-    .projects #slideshow {
-      width: 300px;
-      height: 300px; }
-    .projects img {
-      width: 300px;
-      height: auto; }
-
-  .call {
-    text-align: center; }
-
-  .photo-credit {
-    text-align: center; } }
-section {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 20%; }
-  section * {
-    display: block; }
-
-@media only screen and (max-width: 800px) {
-  section {
-    margin: 0 auto;
-    width: 100%;
-    height: 20%; }
-    section a {
-      text-align: center; } }
-.project-img {
-  max-height: 200px;
-  width: 100%;
-  position: relative;
-  padding: 0;
-  object-fit: cover;
-  border-radius: 0px;
-  opacity: .7;
-  display: inline-block;
-  margin: 0px;
-  position: relative;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
-
-@media only screen and (max-width: 800px) {
-  .project-img {
-    max-height: 500px;
-    width: 100%;
-    position: relative;
-    padding: 0;
-    object-fit: cover;
-    border-radius: 0px;
-    opacity: .6;
-    display: inline-block;
-    margin: 0px;
-    position: relative;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); } }
-.project-img:hover {
-  cursor: pointer;
-  z-index: 400;
-  opacity: 1;
-  box-shadow: 0 44px 58px rgba(0, 0, 0, 0.25), 0 40px 40px rgba(0, 0, 0, 0.22); }
-
-.shimmer {
-  /* styling stuff */
-  color: rgba(255, 255, 255, 0.8); }
-
-.shimmer {
-  /* the shimmer magic */
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)), color-stop(0.5, white));
-  background: -moz-gradient(linear, left top, right top, from(whitesmoke), to(whitesmoke), color-stop(0.5, #e6e6e6));
-  background: linear, left top, right top, from(whitesmoke), to(whitesmoke), color-stop(0.5, #e6e6e6);
-  -webkit-background-size: 125px 100%;
-  -moz-background-size: 125px 100%;
-  background-size: 125px 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  -webkit-animation-name: shimmer;
-  -moz-animation-name: shimmer;
-  -webkit-animation-name: shimmer;
-  animation-name: shimmer;
-  -webkit-animation-duration: 6s;
-  -moz-animation-duration: 6s;
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-color: #222; }
-
-@-moz-keyframes shimmer {
-  0% {
-    background-position: top left; }
-  100% {
-    background-position: top right; } }
-@-webkit-keyframes shimmer {
-  0% {
-    background-position: top left; }
-  100% {
-    background-position: top right; } }
-@-o-keyframes shimmer {
-  0% {
-    background-position: top left; }
-  100% {
-    background-position: top right; } }
-@-ms-keyframes shimmer {
-  0% {
-    background-position: top left; }
-  100% {
-    background-position: top right; } }
-@keyframes shimmer {
-  0% {
-    background-position: top left; }
-  100% {
-    background-position: top right; } }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1025px) {
   .waterfall-img {
     display: none; }
 
@@ -457,25 +338,14 @@ section {
 
   #headshot {
     display: block;
-    position: absolute;
-    top: 0; }
+    position: relative;
+    top: -25px; }
 
   .intro {
     display: none; }
 
   .projects {
-    position: fixed;
-    left: 0;
-    width: 100vw;
-    height: 20px;
-    background: rgba(0, 0, 0, 0);
-    margin: 350px auto 0;
-    opacity: 1;
-    padding: 0; }
-    .projects .slide {
-      margin: 0 auto;
-      padding: 0;
-      height: 20px; }
+    display: none; }
 
   .photo-credit {
     position: fixed;
@@ -485,11 +355,7 @@ section {
     font-size: 14px; }
 
   .call {
-    position: fixed;
-    bottom: 20px;
-    right: 0;
-    opacity: 1;
-    font-size: 14px; }
+    display: none; }
 
   .name {
     z-index: 10000;
