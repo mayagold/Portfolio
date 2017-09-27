@@ -74,7 +74,7 @@ h1 {
 @media only screen and (min-width: 800px) {
   font-size: 30px; }
 #development {
-  font-size: 40px;
+  font-size: 20px;
   margin: 0;
   text-align: left;
   color: black;
@@ -89,7 +89,8 @@ h1 {
     margin-bottom: 100px; }
 
   #development {
-    display: none; }
+    display: none;
+    font-size: 14px; }
 
   #design {
     display: none; }
