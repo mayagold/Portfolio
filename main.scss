@@ -45,11 +45,10 @@ h2 {
     height: 100%;
     max-width: 90%;
     position: fixed;
-    opacity: .9;
-    border-radius: 2px;
+    opacity: 1;
     right: 0;
     top: 0;
-    z-index: -1000;
+
     box-shadow: 0 0 8px 8px black inset;
   }
   .full-screen-body {
@@ -126,13 +125,13 @@ h1 {
     }
   }
   .waterfall-img {
-    height: 800px;
-    width: 500px;
+    height: 100%;
+    max-width: 60%;
     position: fixed;
     left: 0px;
     top: 0px;
     img {
-      opacity: .6;
+      opacity: .5;
       z-index: -1000
     }
   }
@@ -337,10 +336,10 @@ a:hover {
   width: 800px;
   height: 500px;
   z-index: 1000;
-  background: rgba(0,0,0,.1);
+  background: rgba(0,0,0,.8);
   border: 1px solid rgba(230,230,230,.4);
   padding-top: 10px;
-  margin: 0 auto;
+  margin: 800px auto 0;
   div {
     display: inline-block;
   }
