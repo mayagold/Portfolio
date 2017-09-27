@@ -8,8 +8,8 @@ $(window).scroll(function(){
     $('h2').css("opacity", 1 - $(window).scrollTop() / 450);
     $('.description').css("opacity", 1 - $(window).scrollTop() / 500);
     $('.projects').css("opacity", 0+ $(window).scrollTop() / 800);
-    $('.waterfall-img').css("opacity", .9 - $(window).scrollTop() / 2500);
-    $('#wolf').css("opacity", .9 - $(window).scrollTop() / 3500);
+    $('.waterfall-img').css("opacity", .9 - $(window).scrollTop() / 1200);
+    $('#wolf').css("opacity", .9 - $(window).scrollTop() / 1200);
     $('.photo-credit').css("opacity", 0 + $(window).scrollTop() / 1000);
   });
 
