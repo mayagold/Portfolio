@@ -36,7 +36,6 @@ p {
   height: 100%;
   width: 100%;
   margin: 0;
-
   .intro-content {
     position: absolute;
     top: 0;
@@ -44,7 +43,6 @@ p {
     height: 100%;
     width: 100%;
     text-transform: uppercase;
-
     .header-box {
       background: rgba(255,255,255,.1);
       position: absolute;
@@ -71,17 +69,14 @@ p {
         0% { opacity: 0; }
         100% { opacity: 1; }
       }
-
       .site-header {
         font-size: 2em;
         text-shadow: 3px 2px $dark-purple;
       }
-
       .greetings{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-
         span {
           font-family: $header-font;
           text-shadow: 1px 1px $dark-purple;
@@ -98,7 +93,6 @@ p {
 .about-me {
   background: $dark-purple;
   padding: 66px 0;
-
   .image-headshot {
     position: absolute;
     left: 50%;
@@ -110,30 +104,25 @@ p {
     border-radius: 50%;
     border: 5px solid $dark-purple;
   }
-
   h2 {
     color: $red;
     margin-top: 90px;
     font-family: $header-font;
   }
-
   .personal-statement {
     padding: 10px 60px;
     color: $lavender;
     font-size: 24px;
     font-weight: lighter;
   }
-
 }
 
 .my-story {
   padding: 90px 0;
-
   h2 {
     margin-bottom: 60px;
     font-family: $header-font;
   }
-
   .container-stories {
     display: flex;
     flex-direction: row;
@@ -141,21 +130,18 @@ p {
     align-items: flex-start;
     width: 100%;
     margin: auto;
-
     .story {
       position: relative;
       font-weight: lighter;
       width: 27%;
       padding: 18px 0;
       text-align: center;
-
       .logo {
         img {
           height: 66px;
           width: 66px;
         }
       }
-
       h3{
         text-align: center;
         text-transform: uppercase;
@@ -174,23 +160,19 @@ p {
 .portfolio {
   background: $currant;
   padding: 0 0 66px 0;
-
   h2 {
     font-family: $header-font;
     color: whitesmoke;
     padding: 66px;
   }
-
   .portfolio-projects {
     display: flex;
     width: 100%;
-    // max-width: 1024px;
     margin: auto;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-
     .project {
       .project-image, .overlay {
         width: 240px;
@@ -214,7 +196,6 @@ p {
       }
 
       .overlay:hover {
-
         -webkit-animation-name: fadeOut;
         animation-name: fadeOut;
         -webkit-animation-duration: .5s;
@@ -271,7 +252,6 @@ p {
 }
 
 @media only screen and (max-width: $breakpoint) {
-
   .intro {
     .intro-content {
       .header-box {
@@ -279,8 +259,6 @@ p {
       }
     }
   }
-
-
   .my-story {
     h2 {
       display: none;
@@ -296,8 +274,6 @@ p {
         font-weight: lighter;
         width: 80%;
         padding: 18px 18px;
-
-
         h3{
           text-align: center;
           text-transform: uppercase;
