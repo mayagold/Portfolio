@@ -2,16 +2,32 @@ console.log("hi");
 
 // jQuery NavBar Function
 
-$(window).scroll(function(){
-    $(".call").css("opacity", 0 + $(window).scrollTop() / 450);
-    $(".name").css("opacity", 1 - $(window).scrollTop() / 450);
-    $('h2').css("opacity", 1 - $(window).scrollTop() / 450);
-    $('.description').css("opacity", 1 - $(window).scrollTop() / 500);
-    $('.projects').css("opacity", 0+ $(window).scrollTop() / 800);
-    $('.waterfall-img').css("opacity", .9 - $(window).scrollTop() / 1200);
-    $('#wolf').css("opacity", .9 - $(window).scrollTop() / 1200);
-    $('.photo-credit').css("opacity", 0 + $(window).scrollTop() / 1000);
+$(document).ready( ()=> {
+  const headshot = $('.image-headshot');
+  const aboutPosition = $('.about-me').offset().top/4;
+
+  $(window).scroll(function(){
+    var scrollTop = $(this).scrollTop();
+    headshot.css({ 'top': (aboutPosition - scrollTop)});
+    // headshot.css( {'opacity': 0 + scrollTop/40})
+
+    if (scrollTop > aboutPosition) {
+      headshot.css({'top': 0})
+    }
   });
+
+})
+
+
+
+    // $(".call").css("opacity", 0 + $(window).scrollTop() / 450);
+    // $(".name").css("opacity", 1 - $(window).scrollTop() / 450);
+    // $('.description').css("opacity", 1 - $(window).scrollTop() / 500);
+    // $('.projects').css("opacity", 0+ $(window).scrollTop() / 800);
+    // $('.waterfall-img').css("opacity", .9 - $(window).scrollTop() / 1200);
+    // $('#wolf').css("opacity", .9 - $(window).scrollTop() / 1200);
+    // $('.photo-credit').css("opacity", 0 + $(window).scrollTop() / 1000);
+
 
 
 
