@@ -1,21 +1,14 @@
 $breakpoint: 700px;
 
-
-// Fonts
 $main-font: "Lato", sans-serif;
 $header-font: "Julius Sans One", sans-serif;
 
-// Colors
-
 $currant: #45415E;
-$rain: #5B7D87;
+$lavender: #DCDEFF;
 $red: #D03333;
-$creosote: #2E323C;
 $dark-purple: #222430;
 
-
 /*///////////////////////////////////////////////*/
-
 
 html, body {
   width: 100%;
@@ -35,7 +28,6 @@ section {
 p {
   font-size: 16px;
 }
-
 
 .intro {
   background: url(assets/IMG_2164-Pano.jpg);
@@ -127,7 +119,7 @@ p {
 
   .personal-statement {
     padding: 10px 60px;
-    color: #DCDEFF;
+    color: $lavender;
     font-size: 24px;
     font-weight: lighter;
   }
@@ -265,12 +257,12 @@ p {
   }
   .photo-credit, .email-inquiries {
     padding: 12px 0;
-    color: #DCDEFF;
+    color: $lavender;
     text-transform: uppercase;
     font-weight: lighter;
     a {
       text-decoration: none;
-      color: #DCDEFF;
+      color: $lavender;
     }
     a:hover {
       color: whitesmoke;
