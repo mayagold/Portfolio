@@ -21,7 +21,7 @@ $(document).ready( ()=> {
       var windowBottom = $(window).scrollTop() + $(window).height();
 
       if (windowBottom > objectBottom) {
-        $(this).animate( { 'opacity':'1'}, 500);
+        $(this).animate( { 'opacity':'1'}, 300);
       }
     });
 
