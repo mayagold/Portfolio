@@ -26,8 +26,23 @@ section {
   text-align: center;
 }
 
+h2 {
+  margin: 0;
+}
+
 p {
   font-size: 16px;
+}
+
+strong {
+  font-weight: normal;
+}
+
+.subhead {
+  font-size: 18px;
+  // color: rgba(255,255,255,.6);
+  padding: 24px;
+  text-transform: uppercase;
 }
 
 .intro {
@@ -103,7 +118,7 @@ p {
     width: 180px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid $dark-purple;
+    border: 4px solid $dark-purple;
   }
   h2 {
     color: $red;
@@ -111,9 +126,11 @@ p {
     font-family: $header-font;
   }
   .personal-statement {
-    padding: 10px 60px;
+    padding: 24px;
+    width: 70vw;
+    margin: 0 auto;
     color: $lavender;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: lighter;
   }
 }
@@ -121,7 +138,7 @@ p {
 .my-story {
   padding: 90px 0;
   h2 {
-    margin-bottom: 60px;
+    margin-bottom: 36px;
     font-family: $header-font;
   }
   .container-stories {
@@ -160,11 +177,11 @@ p {
 
 .portfolio {
   background: $currant;
-  padding: 0 0 66px 0;
+  padding: 90px 0;
   h2 {
     font-family: $header-font;
     color: whitesmoke;
-    padding: 66px;
+    margin-bottom: 36px;
     // text-shadow: 3px 2px $dark-purple;
 
   }
@@ -211,7 +228,7 @@ p {
 
         @keyframes fadeOut {
           0% { opacity: 1; }
-          90% { font-size: 17px }
+          90% { font-size: 18px }
           100% { opacity: 0; }
         }
       }

@@ -13,8 +13,19 @@ section {
   position: relative;
   text-align: center; }
 
+h2 {
+  margin: 0; }
+
 p {
   font-size: 16px; }
+
+strong {
+  font-weight: normal; }
+
+.subhead {
+  font-size: 18px;
+  padding: 24px;
+  text-transform: uppercase; }
 
 .intro {
   background: url(assets/IMG_2164-Pano.jpg);
@@ -83,21 +94,23 @@ p {
     width: 180px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid #222430; }
+    border: 4px solid #222430; }
   .about-me h2 {
     color: #D03333;
     margin-top: 90px;
     font-family: "Julius Sans One", sans-serif; }
   .about-me .personal-statement {
-    padding: 10px 60px;
+    padding: 24px;
+    width: 70vw;
+    margin: 0 auto;
     color: #DCDEFF;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: lighter; }
 
 .my-story {
   padding: 90px 0; }
   .my-story h2 {
-    margin-bottom: 60px;
+    margin-bottom: 36px;
     font-family: "Julius Sans One", sans-serif; }
   .my-story .container-stories {
     display: flex;
@@ -126,11 +139,11 @@ p {
 
 .portfolio {
   background: #45415E;
-  padding: 0 0 66px 0; }
+  padding: 90px 0; }
   .portfolio h2 {
     font-family: "Julius Sans One", sans-serif;
     color: whitesmoke;
-    padding: 66px; }
+    margin-bottom: 36px; }
   .portfolio .portfolio-projects {
     display: flex;
     width: 100%;
@@ -167,7 +180,7 @@ p {
   0% {
     opacity: 1; }
   90% {
-    font-size: 17px; }
+    font-size: 18px; }
   100% {
     opacity: 0; } }
     .portfolio .portfolio-projects .project .overlay:not(:hover) {
