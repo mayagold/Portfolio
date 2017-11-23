@@ -7,13 +7,23 @@ $(document).ready( ()=> {
 
   $(window).scroll(function(){
     var scrollTop = $(this).scrollTop();
-    console.log(scrollTop);
+
     headshot.css({ 'top': (aboutPosition - scrollTop)});
 
     if (scrollTop > aboutPosition) {
       headshot.css({'top': 0});
     }
 
+    $('.grow').each( function(i){
+      $(this).css( {'opacity':'0'} );
+
+      var objectBottom = $(this).offset().top + 10;
+      var windowBottom = $(window).scrollTop() + $(window).height();
+
+      if (windowBottom > objectBottom) {
+        $(this).animate( { 'opacity':'1'}, 500);
+      }
+    });
 
 
   });
